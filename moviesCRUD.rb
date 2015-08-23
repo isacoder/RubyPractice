@@ -17,7 +17,7 @@ when "add"
     puts "What is the title of the movie?"
     title=gets.chomp
     if movies[title.to_sym].nil?    
-        puts "What is the rating?"
+        puts "What is the rating [1 to 5 stars]?"
         rating=gets.chomp
         movies[title.to_sym]=rating.to_i
         puts "We have added:  #{title}  with a raiting: #{rating}"
@@ -31,7 +31,7 @@ when "update"
     if movies[title.to_sym].nil?
         puts "We don't have that movie listed"
     else
-        puts "Which is the new rating?"
+        puts "Which is the new rating [1 to 5 stars]?"
         rating=gets.chomp
         movies[title.to_sym]=rating.to_i;
         puts "#{title} has been updated to #{rating}"
