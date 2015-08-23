@@ -1,2 +1,2 @@
 # RubyPractice
-I want to keep some code from he practices I've been doing with Ruby
+I want to keep some code from the practices I've been doing with Ruby
